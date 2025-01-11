@@ -29,20 +29,25 @@ body{font-family: "Fira Sans", serif;
                 background-color: #006A50;
                 border: none;
                 border-radius: 8px;
-                padding: 34px;
                 margin-bottom: 117px;
-                font-weight: 600px;
+                font-weight: 800px;
                 font-size: 18px;
                 color: #FFFFFF;
+                height: 56px;
+                width: 270px;
+                text-align: center;
                  
               }
               .h-title{
                 padding-top: 117px;
+                padding-left: 60px;
               }
               .second-title{
                 font-size: 40px;
                 font-weight: bold;
                 color: #0E0E0E;
+                margin-top: 24px;
+                margin-bottom: 32px;
               }
               .second-para{
                 font-weight: 400;
@@ -127,6 +132,37 @@ body{font-family: "Fira Sans", serif;
                 font-size: 16px;
                 color: #FFFFFF;
               }
+              .quota{
+                background-image: url(../assets/quote-bg.png); background-repeat: no-repeat; background-position:top;
+                background-color: #FFFFFF;
+                width: 1280px;
+                height: 256px;
+                border-radius: 16px;
+                margin-top: 32px;
+                margin-left: 160px;
+                margin-right: 160px;
+              }
+              .qouta2{
+                margin-top: 12px;
+              }
+              .quota-head{
+                font-size: 20px;
+                font-weight: 700px;
+                color: #1a1919;
+                padding-left: 24px;
+              }
+              .quota-last{
+                padding-left: 24px;
+              }
+              .quota-des{
+                font-size: 16px;
+                font-weight: 400px;
+                color: #353434;
+                width: 100%;
+                margin-top: 0;
+                padding-left: 24px;
+                padding-top: 48px;
+              }
               .Recent-news{
                 margin: 0 160px;
               }
@@ -142,6 +178,8 @@ body{font-family: "Fira Sans", serif;
                 gap: 32px;
                 margin-top: 30px;
                 border-radius: 24px;
+                margin-left: 160px;
+                margin-top: 32px;
               }
               .box1-title{
                 font-size: 32px;
@@ -178,12 +216,15 @@ body{font-family: "Fira Sans", serif;
                 gap: 32px;
                 margin-top: 30px;
                 border-radius: 24px;
+                margin-left: 160px;
+                margin-top: 32px;
+                
            }
            .donate{
             text-align: center;
             margin-top: 80px;
            }
-           .ammount1{
+           .ammount1:hover{
             border-radius: 16px;
             background-color: #FFFFFF;
             height: 128px;
