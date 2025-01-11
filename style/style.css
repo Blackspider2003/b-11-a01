@@ -23,7 +23,6 @@ main {
                 justify-content: space-around;
                 align-items: center;
                 border-radius: 24px;
-                border: 1px solid blue;
                 width: 100%;
               }
               .header-title{
@@ -36,6 +35,9 @@ main {
                 font-weight: bold;
                 font-size: 56px;
                 color: #0E0E0E;
+              }
+              .btn-h:hover{
+                background-color: #FFC239;
               }
               .btn-h{
                 background-color: #006A50;
@@ -50,9 +52,7 @@ main {
                 text-align: center;
                  
               }
-              .future-vision{
-                border: 1px solid blue;
-              }
+              
               .h-title{
                 padding-top: 117px;
                 padding-left: 60px;
@@ -98,6 +98,9 @@ main {
                 opacity: 70%;
                 padding-bottom: 24px;
               }
+              .box-button1:hover{
+                background-color: #FFC239;
+              }
               .box-button1{
                 background-color: #5490F5;
                 border-radius: 8px;
@@ -116,6 +119,9 @@ main {
                 padding: 32px;
                 border-radius: 16px;
               }
+              .box-button2:hover{
+                background-color: #FFC239;
+              }
               .box-button2{
                 background-color: #09A15C;
                 border-radius: 8px;
@@ -133,6 +139,9 @@ main {
                 background-color: #F7EBCF;
                 padding: 32px;
                 border-radius: 16px;
+              }
+              .box-button3:hover{
+                background-color: #09A15C;
               }
               .box-button3{
                 background-color: #FFC239;
@@ -176,6 +185,9 @@ main {
               .Recent-news{
                 width: 100%;
               }
+              .box1:hover{
+                background-color: #5490F5;
+              }
               .box1{
                 display: flex;
                 justify-content: space-around;
@@ -201,9 +213,13 @@ main {
                 font-size: 16px;
                 color: #0E0E0E; opacity: 70%;
               }
+              .box1-btn:hover{
+                background-color: #FFC239;
+              }
            .box1-btn{
             background-color: #006A50;
             border-radius: 8px;
+            border: none;
             padding: 13px 26px;
             margin-top: 32px;
             font-weight: 700px;
@@ -212,6 +228,9 @@ main {
            }
            img{
             border-radius: 24px;
+           }
+           .box2:hover{
+            background-color: #5490F5;
            }
            .box2{
             display: flex;
@@ -289,25 +308,28 @@ main {
             margin: 32px 104px;
             gap: 24px;
            }
+           .donate-btn:hover{
+            background-color: #FFC239;
+           }
           .donate-btn{
             background-color: #006A50;
             color: #FFFFFF;
             padding: 17px 34px;
             font-weight: 700px;
             font-size: 18px;
-            border-radius: 8px;   
+            border-radius: 8px;  
           }
           .subscribe{
             background-color: #C6E4D6;
             border-radius: 24px;
-            margin: 80px 160px ;
+            width: 100%;
             
           }
           .subscribe-des{
             margin: 0 auto;
             padding-top: 80px;
             height: 395px;
-            width: 1280px;
+            width: 100%;
             text-align: center;
           }
           .sub-heading{
@@ -318,21 +340,39 @@ main {
           .sub-para{
             font-weight: 400px;
             font-size: 16px;
-            color: rgba(37, 37, 37, 0.7)
+            color: rgba(37, 37, 37, 0.7);
+            text-align: center;
 
+          }
+          .sub-button:hover{
+            background-color: #FFC239;
           }
           .sub-button{
             background-color: #006A50;
-            border-radius: mixed;
+            border-radius: 8px;
+            border: none;
             height: 56px;
-            width: 150px;
+            width: 152px;
+            color: #FFFFFF;
+            font-weight: 700px;
+            font-size: 18px;
           }
           .sub-box{
             padding-bottom: 123px;
             padding-right: 265px;
             padding-left: 265px;
           }
-          
+          .email-input{
+            background-color: white;
+            margin: 0 auto;
+            height: 62px;
+            border: none;
+            width: 100%;
+            padding-left: 40px;
+          }
+          .last{
+            display: flex;
+          }
            
               
 
