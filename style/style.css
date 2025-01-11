@@ -63,7 +63,7 @@ body{font-family: "Fira Sans", serif;
                 text-align: justify;
                 width: 411px;
                 height: 325px;
-                background-color: #5490F5;
+                background-color: #b2caf3;
                 padding: 32px;
                 border-radius: 16px;
               }
@@ -84,8 +84,12 @@ body{font-family: "Fira Sans", serif;
               .box-button1{
                 background-color: #5490F5;
                 border-radius: 8px;
-                width: 82px;
-                height: 19px;
+                border: none;
+                width: 122px;
+                height: 41px;
+                font-weight: 700px;
+                font-size: 16px;
+                color: #FFFFFF;
               }
               .vision-box2{
                 text-align: justify;
@@ -98,8 +102,12 @@ body{font-family: "Fira Sans", serif;
               .box-button2{
                 background-color: #09A15C;
                 border-radius: 8px;
-                width: 82px;
-                height: 19px;
+                border: none;
+                width: 122px;
+                height: 41px;
+                font-weight: 700px;
+                font-size: 16px;
+                color: #FFFFFF;
               }
               .vision-box3{
                 text-align: justify;
@@ -112,8 +120,12 @@ body{font-family: "Fira Sans", serif;
               .box-button3{
                 background-color: #FFC239;
                 border-radius: 8px;
-                width: 82px;
-                height: 19px;
+                border: none;
+                width: 122px;
+                height: 41px;
+                font-weight: 700px;
+                font-size: 16px;
+                color: #FFFFFF;
               }
               .Recent-news{
                 margin: 0 160px;
@@ -147,6 +159,9 @@ body{font-family: "Fira Sans", serif;
             border-radius: 8px;
             padding: 13px 26px;
             margin-top: 32px;
+            font-weight: 700px;
+            font-size: 18px;
+            color: #FFFFFF;
            }
            img{
             border-radius: 24px;
@@ -168,7 +183,84 @@ body{font-family: "Fira Sans", serif;
             text-align: center;
             margin-top: 80px;
            }
+           .ammount1{
+            border-radius: 16px;
+            background-color: #FFFFFF;
+            height: 128px;
+            width: 240px;
            
+           }
+           .ammount-des1{
+            font-weight: bold;
+            font-size: 40px;
+            padding: 40px;
+            text-align: center;
+           }
+           .ammount2{
+            border-radius: 16px;
+            background-color: #C6E4D6;
+            height: 128px;
+            width: 240px;
+          
+           }
+           .ammount-des2{
+            font-weight: bold;
+            font-size: 40px;
+            padding: 40px;
+            text-align: center;
+            
+           }
+           .ammount-section{
+            display: flex;
+            justify-content: space-between;
+            margin: 32px 264px;
+            gap: 24px;
+            
+           }
+          .donate-btn{
+            background-color: #006A50;
+            color: #FFFFFF;
+            padding: 17px 34px;
+            font-weight: 700px;
+            font-size: 18px;
+            border-radius: 8px;   
+          }
+          .subscribe{
+            background-color: #C6E4D6;
+            border-radius: 24px;
+            margin: 80px 160px ;
+            
+          }
+          .subscribe-des{
+            margin: 0 auto;
+            padding-top: 80px;
+            height: 395px;
+            width: 1280px;
+            text-align: center;
+          }
+          .sub-heading{
+            font-weight: bold;
+            font-size: 40px;
+            color: #0E0E0E;
+          }
+          .sub-para{
+            font-weight: 400px;
+            font-size: 16px;
+            color: rgba(37, 37, 37, 0.7)
+
+          }
+          .sub-button{
+            background-color: #006A50;
+            border-radius: mixed;
+            height: 56px;
+            width: 150px;
+          }
+          .sub-box{
+            padding-bottom: 123px;
+            padding-right: 265px;
+            padding-left: 265px;
+          }
+          
            
               
 
